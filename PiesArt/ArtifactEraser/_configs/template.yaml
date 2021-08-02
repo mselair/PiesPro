@@ -1,0 +1,29 @@
+NAME: 'DummyModel'
+CATEGORY_KEEP: [] # If empty, keeps all
+CATEGORY_EXLUDE: [] # If empty, keeps all
+
+MODEL:
+   ARCHITECTURE:
+      N_FILTERS: 64
+      N_EMBEDDED_FEATURES: 32
+
+TRAIN:
+   DATASET: IESGen.DCGAN.dataset.MergeDataset_ThreeSeconds
+   CATEGORY_KEEP: [] # If empty, keeps all
+
+   PATH_DATA: ''
+   PATH_REPORT: ''
+
+   EPOCHS: 5
+   BATCH_SIZE: 256
+   CPU_COUNT_LOADERS: 8
+
+   BASE_LR: 0.0002
+   BETA_1: 0.5
+
+   GPU: [0]
+
+   SAVE_MODEL_ITERATION: 50
+   SAVE_REPORT_ITERATION: 50
+
+
