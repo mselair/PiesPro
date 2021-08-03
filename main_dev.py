@@ -20,7 +20,7 @@ self.cuda(7)
 optimizer = torch.optim.Adam(self.parameters(), lr=0.0003)
 
 
-
+Dat._len = 128*20000
 
 
 for k, (x_orig, x_art, y_art) in enumerate(DLoad):
@@ -33,13 +33,16 @@ for k, (x_orig, x_art, y_art) in enumerate(DLoad):
     x_rec, att = self(x_art)
     #break
 
-    x_orig_fft = torch.fft.fft(x_orig, dim=-1).abs() / x_rec.shape[-1]
-    x_rec_fft = torch.fft.fft(x_rec, dim=-1).abs() / x_rec.shape[-1]
+    # x_orig_fft = torch.fft.fft(x_orig, dim=-1).abs() / x_rec.shape[-1]
+    # x_rec_fft = torch.fft.fft(x_rec, dim=-1).abs() / x_rec.shape[-1]
 
-    loss_signal = F.mse_loss(x_rec, x_orig)
+    x_orig_fft = torch.stft(x_orig.squeeze(1), n_fft=100, hop_length=50)
+    x_rec_fft = torch.stft(x_rec.squeeze(1), n_fft=100, hop_length=50)
+
+    loss_signal = F.mse_loss(x_rec, x_orig) * 10
     #loss_att = F.mse_loss(att, y_art)
-    loss_att = F.binary_cross_entropy(att, y_art)
-    loss_fft = F.mse_loss(x_rec_fft, x_orig_fft)
+    loss_att = F.binary_cross_entropy(att, y_art)# * 0.1
+    loss_fft = F.mse_loss(x_rec_fft, x_orig_fft) * 1
     loss = loss_signal + loss_att + loss_fft
     loss.backward()
     optimizer.step()

@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="" />
+    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.ArtifactBank.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.ArtifactEraser.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesDL.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesGen.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesPro.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/modules.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/rdm.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo_final_noframe_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo_frame.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PiesPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PiesPro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesArt/ArtifactEraser/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesArt/ArtifactEraser/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_dev.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +50,75 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/docs/source" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python docs.sphinx task in ">
+    <configuration name="main_dev" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PiesPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/home/lambda2/tmp/pycharm_project_123" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/home/lambda2/tmp/pycharm_project_123" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="/home/lambda2/tmp/pycharm_project_123/main_dev.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sphinx task in " type="docs" factoryName="Sphinx task" nameIsGenerated="true">
+      <module name="PiesPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/anaconda3/envs/pokus/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="$PROJECT_DIR$/docs/source" />
+      <option name="docutils_output_file" value="$PROJECT_DIR$/docs/build" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="html" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_dev" />
+      <item itemvalue="Python docs.sphinx task in " />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,7 +142,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627946620447</updated>
-      <workItem from="1627946622076" duration="363000" />
+      <workItem from="1627946622076" duration="624000" />
+      <workItem from="1628000193062" duration="7432000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -56,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627946814220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PPSW-13 - Copying Pies modules">
+      <created>1627947145099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627947145099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,16 +167,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PPSW-13 - Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - Initial Commit" />
+    <MESSAGE value="PPSW-13 - Copying Pies modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - Copying Pies modules" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="39" key="CommitChangelistDialog2" timestamp="1627946809069">
+    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628023422099">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628023422099" />
+    <state x="677" y="265" key="#sphinx_task_in_" timestamp="1628024117284">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
+    <state x="303" y="39" key="CommitChangelistDialog2" timestamp="1627947138906">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1627946809069" />
+    <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1627947138906" />
+    <state width="1878" height="413" key="GridCell.Tab.0.bottom" timestamp="1628028623803">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1878" height="413" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623803" />
+    <state width="1878" height="413" key="GridCell.Tab.0.center" timestamp="1628028623801">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1878" height="413" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623801" />
+    <state width="1878" height="413" key="GridCell.Tab.0.left" timestamp="1628028623800">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1878" height="413" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623800" />
+    <state width="1878" height="413" key="GridCell.Tab.0.right" timestamp="1628028623802">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1878" height="413" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623802" />
+    <state x="469" y="226" key="SettingsEditor" timestamp="1628020855555">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state x="469" y="226" key="SettingsEditor/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020855555" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1627946820001">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
+    <state x="637" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1628000248392">
+      <screen x="0" y="23" width="1920" height="1008" />
+    </state>
+    <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
+    <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state x="867" y="324" width="557" height="525" key="ftp.server.browser/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020330116" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_.coverage" NAME="sphinx task in  Coverage Results" MODIFIED="1628028623789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />
+    <SUITE FILE_PATH="coverage/PiesPro$main_dev.coverage" NAME="main_dev Coverage Results" MODIFIED="1628020399698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/home/lambda2/tmp/pycharm_project_123" />
   </component>
 </project>

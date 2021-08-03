@@ -23,6 +23,7 @@ class GRU_Denoiser(nn.Module):
         self.resl2 = ResLayer1D(128)
 
         self.convoutp = nn.ConvTranspose1d(in_channels=128, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)
+        self.convfilter = nn.ConvTranspose1d(in_channels=1, out_channels=1, kernel_size=11, stride=1, padding=5, bias=False)
 
         self.batch_outpatt = nn.BatchNorm1d(1)
         self.convoutp_att = nn.ConvTranspose1d(in_channels=1, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)
@@ -52,7 +53,10 @@ class GRU_Denoiser(nn.Module):
 
         x_ = self.resl2(x_)
         x_outp = self.convoutp(x_)
+        x_outp = self.convfilter(x_outp)
+
         x_att = torch.sigmoid(self.batch_outpatt(self.convoutp_att(x_att)))
+
 
         return x_outp, x_att
 
