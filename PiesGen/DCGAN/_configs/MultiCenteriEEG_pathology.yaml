@@ -6,7 +6,7 @@ MODEL:
       N_EMBEDDED_FEATURES: 32
 
 TRAIN:
-   DATASET: PiesPro.DCGAN.dataset.MergeDataset_ThreeSeconds
+   DATASET: PiesGen.DCGAN.dataset.MergeDataset_ThreeSeconds
    CATEGORY_KEEP: ['pathology'] # If empty, keeps all
 
    PATH_DATA: [/mnt/Helium/petr/DATASET_MAYO, /mnt/Helium/petr/DATASET_FNUSA]

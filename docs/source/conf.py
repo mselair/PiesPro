@@ -13,9 +13,9 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('.'))
-#sys.path.insert(0, os.path.abspath('/mnt/Hydrogen/filip/2020/MSEL_AIR/AISC'))
+#sys.path.insert(0, os.path.abspath('/mnt/Hydrogen/filip/2020/MSEL_AIR/PiesSleep'))
 sys.path.insert(0, os.path.abspath('/Users/m220339/PycharmProjects/PiesPro'))
-#sys.path.insert(0, os.path.abspath('/Users/m220339/PycharmProjects/mselair/AISC'))
+#sys.path.insert(0, os.path.abspath('/Users/m220339/PycharmProjects/mselair/PiesSleep'))
 
 try:
     if os.environ['DEVDIR']:
@@ -176,12 +176,12 @@ html_short_title = 'PiesPro'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "../../images/logo_final_noframe_white.png"
+html_logo = "../../_images/logo_final_noframe_white.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../../images/favicon-32x32.png"
+html_favicon = "../../_images/favicon-32x32.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -255,13 +255,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 #latex_documents = [
-#    ('index', 'AISC.tex', u'Automated iEEG Sleep Classification (AISC)',
+#    ('index', 'PiesSleep.tex', u'Automated iEEG Sleep Classification (PiesSleep)',
 #     u'Read the Docs', 'manual'),
 #]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "../../images/logo_final_noframe_white.png"
+latex_logo = "../../_images/logo_final_noframe_white.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

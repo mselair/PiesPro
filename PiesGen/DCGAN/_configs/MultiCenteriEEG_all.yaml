@@ -6,7 +6,7 @@ MODEL:
       N_EMBEDDED_FEATURES: 32
 
 TRAIN:
-   DATASET: PiesPro.DCGAN.dataset.MergeDataset_ThreeSeconds
+   DATASET: PiesGen.DCGAN.dataset.MergeDataset_ThreeSeconds
    CATEGORY_KEEP: [] # If empty, keeps all
    CATEGORY_EXLUDE: [] # If empty, keeps all
 
