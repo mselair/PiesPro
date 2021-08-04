@@ -6,23 +6,23 @@ from PiesDL.models_generic import ResLayer1D
 
 
 class GRU_Denoiser(nn.Module):
-    def __init__(self):
+    def __init__(self, n_filters=64):
         super().__init__()
         self.dummy_par = nn.Parameter(torch.zeros(1))
 
-        self.conv1 = nn.Conv1d(in_channels=1, out_channels=128, kernel_size=11, stride=2, padding=5, bias=False)
-        self.resl1 = ResLayer1D(128)
+        self.conv1 = nn.Conv1d(in_channels=1, out_channels=n_filters, kernel_size=11, stride=2, padding=5, bias=False)
+        self.resl1 = ResLayer1D(n_filters)
 
 
-        self.gru = nn.GRU(128, hidden_size=128, num_layers=1, bidirectional=False, bias=False, batch_first=True)
+        self.gru = nn.GRU(n_filters, hidden_size=n_filters, num_layers=1, bidirectional=False, bias=False, batch_first=True)
 
-        self.gru_attention = nn.GRU(128, hidden_size=128, num_layers=1, bidirectional=False, bias=False, batch_first=True)
-        self.fc_attention = nn.Linear(128, 1)
+        self.gru_attention = nn.GRU(n_filters, hidden_size=n_filters, num_layers=1, bidirectional=False, bias=False, batch_first=True)
+        self.fc_attention = nn.Linear(n_filters, 1)
 
-        self.conv2 = nn.Conv1d(in_channels=256, out_channels=128, kernel_size=5, stride=1, padding=2, bias=False)
-        self.resl2 = ResLayer1D(128)
+        self.conv2 = nn.Conv1d(in_channels=n_filters * 2, out_channels=n_filters, kernel_size=5, stride=1, padding=2, bias=False)
+        self.resl2 = ResLayer1D(n_filters, bias=False)
 
-        self.convoutp = nn.ConvTranspose1d(in_channels=128, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)
+        self.convoutp = nn.ConvTranspose1d(in_channels=n_filters, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)
         self.convfilter = nn.ConvTranspose1d(in_channels=1, out_channels=1, kernel_size=11, stride=1, padding=5, bias=False)
 
         self.batch_outpatt = nn.BatchNorm1d(1)

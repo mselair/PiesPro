@@ -10,7 +10,7 @@ TRAIN:
    CATEGORY_KEEP: ['noise'] # If empty, keeps all
 
    PATH_DATA: [/mnt/Helium/petr/DATASET_MAYO, /mnt/Helium/petr/DATASET_FNUSA]
-   PATH_REPORT: /mnt/Helium/filip/Projects/2021_iESGen/training
+   PATH_REPORT: /mnt/Helium/filip/Projects/2021_PiesGen/training
 
    EPOCHS: 5
    BATCH_SIZE: 64

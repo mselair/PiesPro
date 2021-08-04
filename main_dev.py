@@ -10,6 +10,9 @@ from torch.utils.data import DataLoader
 from mef_tools.io import MefReader
 
 
+
+
+"""
 Dat = StimArtifactDataset(1, ['MultiCenteriEEG_physiology', 'MultiCenteriEEG_pathology'], ['RCS'])
 DLoad = DataLoader(Dat, batch_size=128, num_workers=8, shuffle=True)
 model = GRU_Denoiser()
@@ -87,4 +90,12 @@ x_rec, yy = self(torch.tensor(x_real).float().view(1,1,-1))
 plt.plot(x_real)
 plt.plot(x_rec.squeeze().detach().numpy())
 plt.show()
+"""
 
+from PiesArt.ArtifactEraser._configs import configs_ArtifactEraser
+from PiesArt.ArtifactEraser.trainer import Trainer
+
+
+cfg = configs_ArtifactEraser['RCS_ArtifactEraser']
+self = Trainer(cfg)
+self.train()
