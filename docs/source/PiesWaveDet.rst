@@ -1,7 +1,7 @@
-PiesPro
+PiesWaveDet
 ============
 
-.. automodule:: PiesPro
+.. automodule:: PiesWaveDet
    :members:
    :undoc-members:
 
@@ -9,6 +9,4 @@ PiesPro
 .. toctree::
    :numbered:
 
-   PiesPro_
-
-
+   PiesWaveDet.WaveDetector

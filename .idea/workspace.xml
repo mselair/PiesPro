@@ -2,37 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.ArtifactBank.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.ArtifactEraser.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesArt.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesDL.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesGen.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesPro.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/modules.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/rdm.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_final_noframe_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo_frame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PiesPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PiesPro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.readthedocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/1_det.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/1_orig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/2_det.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/2_orig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/3_det.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_images/3_orig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.io.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.utils.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.visualisation.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesPro_.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.FeatureExtractor.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.SpectralFeatures.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.models.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.modules.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesWaveDet.WaveDetector.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/PiesWaveDet.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesArt/ArtifactEraser/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesArt/ArtifactEraser/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesArt/ArtifactEraser/_configs/RCS_ArtifacEraser.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/PiesArt/ArtifactEraser/_configs/RCS_ArtifacEraser.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesHyp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesPro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/FeatureExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/FeatureExtractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/SpectralFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/SpectralFeatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesSleep/modules/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/modules/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/signal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesUtils/vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiesWaveDet/WaveDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesWaveDet/WaveDetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutorials/ExampleData/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_images/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/PiesPro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/PiesPro.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/modules.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/CyberPSG.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/CyberPSG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/NSRR.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/NSRR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/correct.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/correct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypnogram/visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/visualisation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,12 +96,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/PiesPro" />
+      <recent name="$PROJECT_DIR$/PiesSleep" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/PiesWaveDet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/_images" />
       <recent name="$PROJECT_DIR$/docs/source" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tutorials" />
+      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager" selected="Python docs.sphinx task in ">
@@ -143,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627946620447</updated>
       <workItem from="1627946622076" duration="624000" />
-      <workItem from="1628000193062" duration="7432000" />
+      <workItem from="1628000193062" duration="13950000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -159,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627947145099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PPSW-13 - running commit Documentation">
+      <created>1628028698812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628028698812</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PPSW-13 - running commit Sleep, hypnogram &amp; Start working PiesArt">
+      <created>1628030337853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628030337853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +221,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PPSW-13 - Initial Commit" />
     <MESSAGE value="PPSW-13 - Copying Pies modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - Copying Pies modules" />
+    <MESSAGE value="PPSW-13 - running commit Documentation" />
+    <MESSAGE value="PPSW-13 - running commit Sleep, hypnogram &amp; Start working PiesArt" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - running commit Sleep, hypnogram &amp; Start working PiesArt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628023422099">
@@ -179,26 +234,31 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="303" y="39" key="CommitChangelistDialog2" timestamp="1627947138906">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="404" y="45" key="CommitChangelistDialog2" timestamp="1628030336788">
+      <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1627947138906" />
-    <state width="1878" height="413" key="GridCell.Tab.0.bottom" timestamp="1628028623803">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628030336788" />
+    <state width="1398" height="413" key="GridCell.Tab.0.bottom" timestamp="1628035561449">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="413" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623803" />
-    <state width="1878" height="413" key="GridCell.Tab.0.center" timestamp="1628028623801">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1398" height="413" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1628035561449" />
+    <state width="1878" height="413" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867910" />
+    <state width="1398" height="413" key="GridCell.Tab.0.center" timestamp="1628035561448">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="413" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623801" />
-    <state width="1878" height="413" key="GridCell.Tab.0.left" timestamp="1628028623800">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1398" height="413" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
+    <state width="1878" height="413" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867909" />
+    <state width="1398" height="413" key="GridCell.Tab.0.left" timestamp="1628035561447">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="413" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623800" />
-    <state width="1878" height="413" key="GridCell.Tab.0.right" timestamp="1628028623802">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1398" height="413" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1628035561447" />
+    <state width="1878" height="413" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867908" />
+    <state width="1398" height="413" key="GridCell.Tab.0.right" timestamp="1628035561448">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="413" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628028623802" />
+    <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
+    <state width="1878" height="413" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867909" />
     <state x="469" y="226" key="SettingsEditor" timestamp="1628020855555">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
@@ -217,7 +277,7 @@
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020330116" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_.coverage" NAME="sphinx task in  Coverage Results" MODIFIED="1628028623789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />
+    <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_.coverage" NAME="sphinx task in  Coverage Results" MODIFIED="1628035561436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />
     <SUITE FILE_PATH="coverage/PiesPro$main_dev.coverage" NAME="main_dev Coverage Results" MODIFIED="1628020399698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/home/lambda2/tmp/pycharm_project_123" />
   </component>
 </project>

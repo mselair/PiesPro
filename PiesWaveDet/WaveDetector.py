@@ -68,7 +68,7 @@ Example
 
 import numpy as np
 from copy import deepcopy
-from PiesUtils.signal import LowFrequencyFilter, fft_filter
+from PiesPro.signal import LowFrequencyFilter, fft_filter
 
 class WaveDetector:
     """

@@ -64,7 +64,7 @@ def _convert_to_timezone(x, tzinfo):
 
 def time_to_local(dfHyp):
     """
-    Converts the time into the local timezone. Default by python and PC. Does not enter the timezone explicitely. Cannot be used for creating a hypnogram figure.
+    Converts the time into the local timezone. Default by python and PC. Does not enter the timezone explicitely. Cannot be used for creating a PiesHyp figure.
     """
     def convert(x, col_key):
         return _convert_to_local(x[col_key])
@@ -90,7 +90,7 @@ def time_to_utc(dfHyp):
 
 def time_to_timezone(dfHyp, tzinfo):
     """
-    Converts the hypnogram into a timezone. The timezone has to be from a python library dateutil
+    Converts the PiesHyp into a timezone. The timezone has to be from a python library dateutil
     """
     def convert(x, col_key):
         return _convert_to_timezone(x[col_key], tzinfo)
@@ -102,7 +102,7 @@ def time_to_timezone(dfHyp, tzinfo):
 
 def time_to_timestamp(dfHyp):
     """
-    Converts the hypnogram time to timestamp.
+    Converts the PiesHyp time to timestamp.
     """
     def convert(x, col_key):
         return _convert_to_timestamp(x[col_key])
@@ -114,7 +114,7 @@ def time_to_timestamp(dfHyp):
 
 def create_duration(dfHyp):
     """
-    Creates duration for each epoch within the hypnogram. (Faster on timestamp)
+    Creates duration for each epoch within the PiesHyp. (Faster on timestamp)
     """
     def duration(x):
         if type(x['start']) in (datetime, Timestamp):
@@ -127,7 +127,7 @@ def create_duration(dfHyp):
 
 def create_day_indexes(dfHyp, hour=12):
     """
-    Creates a day index for each epoch within the hypnogram, given the hour.
+    Creates a day index for each epoch within the PiesHyp, given the hour.
     """
     
     if not isinstance(dfHyp, pd.DataFrame):

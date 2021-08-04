@@ -16,3 +16,9 @@ PATH_PACKAGE = DELIMITER.join(__file__.split(DELIMITER)[::-1])
 
 
 
+
+"""
+
+A Python package providing tools and utilities which are nice to have while working not only on this project.
+
+"""

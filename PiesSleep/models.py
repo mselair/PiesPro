@@ -25,15 +25,15 @@ from scipy.optimize import differential_evolution
 from scipy.linalg import norm
 
 
-from hypnogram.utils import time_to_timestamp, time_to_utc, merge_annotations
-from PiesUtils import augment_features, balance_classes
-from PiesUtils.signal import unify_sampling_frequency, get_datarate, buffer
-from PiesUtils import kl_divergence_nonparametric
-from PiesUtils import scale, translate, get_mutual_vectors
+from PiesHyp.utils import time_to_timestamp, time_to_utc, merge_annotations
+from PiesPro.feature import augment_features, balance_classes
+from PiesPro.signal import unify_sampling_frequency, get_datarate, buffer
+from PiesPro.stats import kl_divergence_nonparametric
+from PiesPro.vector import scale, translate, get_mutual_vectors
 from PiesSleep.modules.stats import multivariate_normal_
 from PiesSleep.modules.feature import ZScoreModule, PCAModule
-from PiesSleep.FeatureExtractor.FeatureExtractor import SleepSpectralFeatureExtractor
-from PiesSleep.FeatureExtractor.SpectralFeatures import mean_bands, mean_frequency, relative_bands
+from PiesSleep.FeatureExtractor import SleepSpectralFeatureExtractor
+from PiesSleep.SpectralFeatures import mean_bands, mean_frequency, relative_bands
 import scipy.signal as signal
 
 

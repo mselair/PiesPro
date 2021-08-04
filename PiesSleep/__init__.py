@@ -6,7 +6,7 @@
 
 
 """
-Automated iEEG Sleep Classifier - PiesSleep (c) is a Python package developed by the `Bioelectronics Neurophysiology and Engineering <https://www.mayo.edu/research/labs/bioelectronics-neurophysiology-engineering/overview>`_ laboratory of Department of Neurology Mayo Clinic.
+Python Invasive Electrophysiology Signal Processing Toolbox - PiesSleep (c) is a Python package developed by the `Bioelectronics Neurophysiology and Engineering <https://www.mayo.edu/research/labs/bioelectronics-neurophysiology-engineering/overview>`_ laboratory of Department of Neurology Mayo Clinic.
 The main scope of this package is to provide tools for an automated sleep classification using intracranial EEG signals.
 """
 

@@ -7,7 +7,7 @@ import numpy as np
 
 from sklearn.decomposition import PCA
 
-from PiesUtils import augment_features
+from PiesPro.feature import augment_features
 
 """
 Modules compatioble with scikitlearn pipeline

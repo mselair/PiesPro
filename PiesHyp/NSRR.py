@@ -7,7 +7,7 @@
 import os
 import pandas as pd
 import xml.etree.ElementTree as ET
-from hypnogram.CyberPSG import TwoWayDict
+from PiesHyp.CyberPSG import TwoWayDict
 
 class NSRRSleepFile:
     def __init__(self, path=None, nsrr2hypnogram_keys={

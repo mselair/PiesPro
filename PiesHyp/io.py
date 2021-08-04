@@ -17,14 +17,14 @@ from tqdm import tqdm
 
 from mef_tools.io import MefReader
 
-from hypnogram.CyberPSG import CyberPSGFile, CyberPSG_XML_Writter
-from hypnogram.NSRR import NSRRSleepFile
-from hypnogram.utils import time_to_utc, create_duration, tile_annotations
+from PiesHyp.CyberPSG import CyberPSGFile, CyberPSG_XML_Writter
+from PiesHyp.NSRR import NSRRSleepFile
+from PiesHyp.utils import time_to_utc, create_duration, tile_annotations
 import pandas as pd
 
 
 """
-Tools for loading and saving of hypnogram files.
+Tools for loading and saving of PiesHyp files.
 """
 
 _hypnogram_colors = {

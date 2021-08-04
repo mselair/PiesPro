@@ -6,14 +6,14 @@ import matplotlib.dates as mdates
 from dateutil import tz
 from copy import deepcopy
 from tqdm import tqdm
-from hypnogram.visualisation import plot_hypnogram
+from PiesHyp.visualisation import plot_hypnogram
 
 """
 Tools for analyzing hypnograms such as number of cycles, sleep time etc.
 """
 
 
-from hypnogram.utils import merge_annotations, filter_by_key
+from PiesHyp.utils import merge_annotations, filter_by_key
 
 
 def get_hypnogram_datarate(df):

@@ -86,10 +86,16 @@ and on repository `Semi Automated Sleep Classifier <https://github.com/vkremen/S
 
 """
 
-import numpy as np
+import multiprocessing
 
-from PiesUtils import ObjDict
-from PiesSleep.FeatureExtractor.SpectralFeatures import *
+import numpy as np
+import scipy.signal as signal
+
+from functools import partial
+
+from PiesPro.types import ObjDict
+from PiesSleep.SpectralFeatures import *
+from PiesPro.signal import buffer, PSD
 
 
 class SleepSpectralFeatureExtractor:

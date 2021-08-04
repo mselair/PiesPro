@@ -6,5 +6,8 @@ PiesPro
    PiesArt
    PiesDL
    PiesGen
+   PiesHyp
    PiesPro
+   PiesSleep
+   PiesWaveDet
 

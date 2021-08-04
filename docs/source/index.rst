@@ -1,4 +1,4 @@
-Python Invasive Electrophysdiology Signal Processing Toolbox (PiesPro)
+Python Invasive Electrophysiology Signal Processing Toolbox (PiesPro)
 ========================================================================
 
 

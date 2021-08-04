@@ -6,7 +6,7 @@ MODEL:
 
 TRAIN:
    DATASET: PiesArt.ArtifactEraser.dataset.StimArtifactDataset
-   EEG_GENERATORS_DCGAN: ['MultiCenteriEEG_physiology', 'MultiCenteriEEG_pathology'] # If empty, keeps all
+   EEG_GENERATORS_DCGAN: ['MultiCenteriEEG_physiology', 'MultiCenteriEEG_pathology'] # models from PiesGen.DCGAN
    STIM_ARTIFACT: ['RCS']
    CPU_COUNT_LOADERS: 8
 
