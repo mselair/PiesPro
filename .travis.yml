@@ -1,8 +1,41 @@
-language: python
-python:
-- "3.6"
-install:
-- pip install .
-script:
-- python setup.py bdist_wheel sdist
+---
+jobs:
+  include:
+    -
+      language: python
+      name: "Linux - Python 3.6"
+      os: linux
+      python:
+        - "3.6"
+    -
+      before_install:
+        - "choco install python --version 3.6"
+        - "python --version"
+        - "python -m pip install --upgrade pip"
+        - "pip3 install wheel || pip install wheel"
+      env: "PATH=/c/Python36:/c/Python36/Scripts:$PATH"
+      language: shell
+      name: "Windows - Python 3.6"
+      os: windows
+      after_success:
+        - "python3 -m pip install twine --user || python -m pip install twine --user"
 
+install:
+  - "pip3 install . || pip install ."
+
+script:
+  - "python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist"
+
+
+deploy:
+  provider: pypi
+  server: https://test.pypi.org/legacy/
+  user: __token__
+  password:
+    #secure: prBbrJIjwbOwKNB1giWz60sZwREGmU0G5U/5+Nyl5UH2M+5k9p2JWbEBh8MqY1J4NBBm++atZ3ORhTIygu6jwBjSLEHLgPENFI6Yag7gLfjOoNeM2+47fO2ByuHlUQhdrddYPadkyykQsnaT2RKUqUTnfNwQEKTfkm1gVzGU2GVDzpkOrdlNpi9qVuOUenCmRxJH4rydz4lYjBuQsmlW8biuWfGxVbVALM6b7wGyiy63TY7LgNvJLnII5+gaN/+ni5E1K2igX6oYE3oxJhEoS3seJO0AppYiZngVXCFPKYxz4hQNsx6T8W1djF+Wpj9lvlZJcjeA7l2bqBr3IgWmEVy4Pyzgc4jKODdfSin3a05g7oDZqmZrDyWF5biMTLc9Y8SVhnwhfgRJCaeQFtMK8IslGfHj+IDRvW5eyoYxcxZckhM3PcxQlybHIgbGIIvOOH5IuQKBOUd/1dlqUpRIDY1Np3aUCPT4CIozy0PpdFdWIHYsfpHLVb18/Pcx9+1KGO03RJzZiOm0uYWkyX6re2V1P0aFx7eYhlmgN1zz64+wIKzdAYplsFZ9AdDwSfJZ28U5odHMCqLBktcYZFdOg6B+5AqhKEPfSyva2lrtgu6L/IL2DvBBf29Y7KL7KFDZw3vMG1ioNfUUfd6LITQ9jyFzTxxcP8zpgV1OIMWZstU=
+    #test.pypi
+    secure: HWeERkOF6xl/vkMJApEFi4PNWA5ReLUdzUojfR3kKJM5zAY66Z+SifG1odRwPV7US0iMMD/6bBtLq1jjfnhurBbfiuzGFA+K0//c9xfZL9o8w5jfwU2V/Slwwsx+JCEAgPvCUjrCp9CFibbj5tybXbeIjZCvyusMctPzh+kVIaiJgcmoDDiACpMHqCp7lfZz9STA2E1LwttcwpAM5NoxSKH/Q/urHPiFmc3NKldmdcMdcaUuQzePwpaExOkzeELygh8GyJG+LFojBkCuNSSrLJe+FqEwVs4XyIB9TJZUW/Or8g6pAr1NeGVLOfR46zLHruJiNZsztJRleTjke0vXkW2btppCf3vT1rvqTWQjAb8KrP++d978Afq8gTu+RLSOwb4WTyToSqr8AN20lEo5kX0SaAAwKRdfcc5mi4ms5CBfoXQSzIp7w9zGydLDS4iIlwy02hTI07DmWTu7SbaNopJnDohSRcfIeGYkv4uu0cwrEokbwpU8CmC6DDLlCi9l5QZszUgJDxXmpTKT68rv1K0QaKztI+ua6e6pqj4SqdtAUQ4iCh6DtKl5cMFz8kbifc8+5sCdgdOJjs9WeG5A3bEL2Ga7Dg8c1C6I+/CZlbNPDgPc9q/VejtZCofPZwn4hPAt1QsWAsBUuNpbIDIpPHWuGE1NnH/AXi0Qi0YJKdg=
+  skip_cleanup: true
+  on:
+    tags: false
+  skip_existing: true
