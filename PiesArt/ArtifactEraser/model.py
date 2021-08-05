@@ -17,13 +17,13 @@ class GRU_Denoiser(nn.Module):
         self.gru = nn.GRU(n_filters, hidden_size=n_filters, num_layers=1, bidirectional=False, bias=False, batch_first=True)
 
         self.gru_attention = nn.GRU(n_filters, hidden_size=n_filters, num_layers=1, bidirectional=False, bias=False, batch_first=True)
-        self.fc_attention = nn.Linear(n_filters, 1)
+        self.fc_attention = nn.Linear(n_filters, 1, bias=True)
 
         self.conv2 = nn.Conv1d(in_channels=n_filters * 2, out_channels=n_filters, kernel_size=5, stride=1, padding=2, bias=False)
         self.resl2 = ResLayer1D(n_filters, bias=False)
 
         self.convoutp = nn.ConvTranspose1d(in_channels=n_filters, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)
-        self.convfilter = nn.ConvTranspose1d(in_channels=1, out_channels=1, kernel_size=11, stride=1, padding=5, bias=False)
+        self.convfilter = nn.Conv1d(in_channels=1, out_channels=1, kernel_size=11, stride=1, padding=5, bias=False)
 
         self.batch_outpatt = nn.BatchNorm1d(1)
         self.convoutp_att = nn.ConvTranspose1d(in_channels=1, out_channels=1, kernel_size=12, stride=2, padding=5, bias=False)

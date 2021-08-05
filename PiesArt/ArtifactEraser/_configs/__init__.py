@@ -6,3 +6,4 @@ configs_ArtifactEraser = dict([(f.split(DELIMITER)[-1].split('.')[0], config(f))
 
 
 
+

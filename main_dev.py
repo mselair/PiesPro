@@ -92,10 +92,141 @@ plt.plot(x_rec.squeeze().detach().numpy())
 plt.show()
 """
 
-from PiesArt.ArtifactEraser._configs import configs_ArtifactEraser
+from PiesArt.ArtifactEraser import configs_ArtifactEraser, models_ArtifactEraser
 from PiesArt.ArtifactEraser.trainer import Trainer
+from PiesGen.DCGAN import models_DCGAN
 
-
-cfg = configs_ArtifactEraser['RCS_ArtifactEraser']
+cfg = configs_ArtifactEraser['RCS_ArtifactEraser_100k']
 self = Trainer(cfg)
 self.train()
+
+#
+#
+# from PiesPro.signal import PSD
+#
+# model = models_ArtifactEraser['RCS_ArtifactEraser_100k']
+# model.eval().cpu()
+# Rdr = MefReader('/mnt/Helium/filip/Projects/2021_Sleep_ERP_GS/M5/data/M5_Day_0_2Hz/ieeg M5_Day_0_2Hz.mefd')
+# #Rdr = MefReader('/mnt/Helium/filip/Projects/2021_Sleep_ERP_GS/M1/data/M1_Day_2_2Hz/ieeg M1_Day_2_2Hz.mefd')
+#
+# s = Rdr.get_property('start_time')[0]
+# x_real = Rdr.get_data('e12-e15', s, s +60*10*1e6 )
+#
+# var = np.nanstd(x_real)
+# mu = np.nanmean(x_real)
+#
+# x_real = (x_real - mu) / var
+# x_real[np.isnan(x_real)] = 0
+#
+# x_rec, yy = model(torch.tensor(x_real).float().view(1,1,-1))
+#
+# plt.plot(x_real)
+# plt.plot(x_rec.squeeze().detach().numpy())
+# plt.xlim([0, 2000])
+# plt.show()
+#
+#
+# plt.plot(yy.squeeze().detach().numpy())
+# plt.xlim([0, 2000])
+# plt.show()
+#
+# plt.plot(x_real)
+# plt.plot(x_rec.squeeze().detach().numpy())
+# plt.xlim([0, 1000])
+# plt.show()
+#
+#
+# plt.plot(yy.squeeze().detach().numpy())
+# plt.xlim([0, 1000])
+# plt.show()
+#
+#
+#
+# plt.plot(x_real)
+# plt.plot(x_rec.squeeze().detach().numpy())
+# plt.xlim([0, 500])
+# plt.show()
+#
+#
+# plt.plot(yy.squeeze().detach().numpy())
+# plt.xlim([0, 500])
+# plt.show()
+#
+#
+# plt.plot(x_real)
+# plt.plot(x_rec.squeeze().detach().numpy())
+# plt.xlim([4000, 5000])
+# plt.show()
+#
+#
+# plt.plot(yy.squeeze().detach().numpy())
+# plt.xlim([4000, 5000])
+# plt.show()
+#
+
+
+
+#x_fft_orig = np.abs(np.fft.fft(x_real)) / x_real.shape[0]
+#x_fft_orig = x_fft_orig[:int(np.floor(x_fft_orig.shape[0]/2))]
+
+# x_fft_rec = np.abs(np.fft.fft(x_rec.squeeze().detach().numpy())) / x_rec.shape[-1]
+# x_fft_rec = x_fft_rec[:int(np.floor(x_fft_rec.shape[0]/2))]
+#
+# freq = np.linspace(0, 1, x_fft_orig.shape[0]) * 250
+
+#
+#
+# freq, Pxx_real = PSD(x_real, fs=500, nperseg=5*500, noverlap=5*250)
+# freq, Pxx_rec = PSD(x_rec.squeeze().detach().numpy(), fs=500, nperseg=5*500, noverlap=5*250)
+# freq, Pxx_sub = PSD(x_real-x_rec.squeeze().detach().numpy(), fs=500, nperseg=5*500, noverlap=5*250)
+#
+# plt.semilogy(freq, Pxx_real)
+# plt.semilogy(freq, Pxx_rec)
+# plt.xlim([0.5, 100])
+# #plt.ylim([1e-6, 1e0])
+# plt.show()
+#
+# plt.semilogy(freq, Pxx_sub)
+# plt.xlim([0.5, 100])
+# #plt.ylim([1e-6, 1e0])
+# plt.show()
+#
+#
+#
+# #
+#
+# from PiesArt.ArtifactEraser.dataset import StimArtifactDataset
+# sig_gen = models_DCGAN['MultiCenteriEEG_pathology']
+# sart = StimArtifactDataset()
+# sart._len = 100
+#
+#
+# x_orig, x_art, y_ = sart[0]
+# x_rec, yy = model(torch.tensor(x_art).float().view(1,1,-1))
+#
+# freq, Pxx_orig = PSD(x_orig.squeeze(), fs=500, nperseg=2*500, noverlap=2*250)
+# freq, Pxx_art = PSD(x_art.squeeze(), fs=500, nperseg=2*500, noverlap=2*250)
+# freq, Pxx_rec = PSD(x_rec.squeeze().detach().numpy(), fs=500, nperseg=2*500, noverlap=2*250)
+#
+#
+# plt.plot(x_orig)
+# plt.plot(x_art.squeeze().detach().numpy())
+# plt.plot(x_rec.squeeze().detach().numpy())
+# plt.xlim([4000, 5000])
+# plt.show()
+#
+#
+#
+# plt.semilogy(freq, Pxx_orig)
+# plt.semilogy(freq, Pxx_art)
+# plt.semilogy(freq, Pxx_rec)
+# plt.xlim([0.5, 200])
+# #plt.ylim([1e-6, 1e0])
+# plt.show()
+
+
+
+
+
+
+

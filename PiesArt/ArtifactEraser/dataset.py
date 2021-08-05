@@ -26,7 +26,7 @@ class StimArtifactDataset:
         idx_sig_gen = item % self.SigGenerators.__len__()
         idx_art_gen = item % self.ArtGenerators.__len__()
 
-        X_orig = self.SigGenerators[idx_sig_gen].generate_signal(n_batch=1, n_seconds=self.sig_len, momentum=0.99).squeeze(0)
+        X_orig = self.SigGenerators[idx_sig_gen].generate_signal(n_batch=1, n_seconds=self.sig_len, momentum=0.1).squeeze(0)
         X_art, Y_art = self.ArtGenerators[idx_art_gen].get_signal(n_batch=1, n_length=X_orig.shape[-1])
         X_art = torch.tensor(X_art, dtype=torch.float32).squeeze(0)
         Y_art = torch.tensor(Y_art, dtype=torch.float32).squeeze(0)
@@ -35,3 +35,10 @@ class StimArtifactDataset:
 
     def __len__(self):
         return self._len
+
+
+
+
+
+
+

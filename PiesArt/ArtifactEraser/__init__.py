@@ -1,1 +1,2 @@
 from PiesArt.ArtifactEraser._configs import configs_ArtifactEraser
+from PiesArt.ArtifactEraser._models import models_ArtifactEraser

@@ -95,21 +95,38 @@ class Trainer:
         self.model.train()
 
         for k, (x_orig, x_art, y_art) in enumerate(self.DLoaderTrain):
-
+            #break
             self.model.zero_grad()
             x_orig = x_orig.float().detach().to(self.device)
             x_art = x_art.float().detach().to(self.device)
             y_art = y_art.float().detach().to(self.device)
 
             x_rec, att = self.model(x_art)
-            x_orig_fft = torch.stft(x_orig.squeeze(1), n_fft=100, hop_length=50)
-            x_rec_fft = torch.stft(x_rec.squeeze(1), n_fft=100, hop_length=50)
+            #x_orig_fft = torch.stft(x_orig.squeeze(1), n_fft=2*500, hop_length=100, return_complex=True, ).abs()
+            #x_rec_fft = torch.stft(x_rec.squeeze(1), n_fft=2*500, hop_length=100, return_complex=True, ).abs()
+
+            x_orig_fft = torch.fft.fft(x_orig.squeeze(1)).abs()
+            x_rec_fft = torch.fft.fft(x_rec.squeeze(1)).abs()
+
+            x_orig_fft = torch.log10(x_orig_fft)
+            x_rec_fft = torch.log10(x_rec_fft)
+
+            x_rec_fft[torch.isnan(x_orig_fft) | torch.isinf(x_orig_fft)] = 0
+            x_orig_fft[torch.isnan(x_orig_fft) | torch.isinf(x_orig_fft)] = 0
+
+            x_orig_fft[torch.isnan(x_rec_fft) | torch.isinf(x_rec_fft)] = 0
+            x_rec_fft[torch.isnan(x_rec_fft) | torch.isinf(x_rec_fft)] = 0
+
+
+
 
             loss_signal = self.criterionMSE(x_rec, x_orig) * self.cfg.TRAIN.WEIGHT_SIGNAL_RECONSTRUCTION
             loss_fft = self.criterionMSE(x_rec_fft, x_orig_fft) * 1 * self.cfg.TRAIN.WEIGHT_STFT_RECONSTRUCTION
             loss_att = self.criterionBCE(att, y_art) * self.cfg.TRAIN.WEIGHT_DETECTION
             loss = loss_signal + loss_att + loss_fft
             loss.backward()
+
+            torch.nn.utils.clip_grad_value_(self.model.parameters(), 0.1)
             self.optimizer.step()
             self.lr_scheduler.step()
 
@@ -137,7 +154,7 @@ class Trainer:
     def print_losses_to_file(self, losses):
         path = self.path_report_losses
         lr = self.optimizer.param_groups[0]['lr']
-        printStr = f'{self.current_epoch}, {lr}, ' + ', '.join([f'{i:.8f}' for k, i in losses.items()]) + '\n'
+        printStr = f'{self.current_iteration}, {lr}, ' + ', '.join([f'{i:.8f}' for k, i in losses.items()]) + '\n'
         print(self.overall_iteration, self.current_epoch, self.current_iteration, losses)
         with open(path, 'a') as f:
             f.write(printStr)
@@ -166,7 +183,7 @@ class Trainer:
         #plt.show()
 
     def save_model(self):
-        PATH = os.path.join(self.path_report_models, f"{self.cfg.NAME}_epoch_{self.current_epoch:05d}_iteration_{self.current_iteration:05d}_step_{self.overall_iteration:05d}_ArtifactEraser")
+        PATH = os.path.join(self.path_report_models, f"{self.cfg.NAME}_epoch_{self.current_epoch:05d}_iteration_{self.current_iteration:05d}_step_{self.overall_iteration:05d}_ArtifactEraser.pt")
         torch.save(self.model.state_dict(), PATH)
 
     def train(self):
