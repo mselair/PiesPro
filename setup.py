@@ -20,7 +20,7 @@ else:
 
 
 setuptools.setup(
-    name="mselair-aisc",
+    name="piespro",
     version=verstr,
     license='MFMER',
     url="https://github.com/mselair/PiesPro",
