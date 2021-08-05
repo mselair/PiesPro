@@ -21,7 +21,7 @@ jobs:
     after_success:
     - python3 -m pip install twine --user || python -m pip install twine --user
 install:
-- pip install . --use-feature=in-tree-build
+-python3 -m pip install . --use-feature=in-tree-build || python -m pip install . --use-feature=in-tree-build
 script:
 - python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist
 deploy:
