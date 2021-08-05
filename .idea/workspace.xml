@@ -1,59 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.readthedocs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/1_det.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/1_orig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/2_det.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/2_orig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/3_det.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_images/3_orig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.io.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.utils.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesHyp.visualisation.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesPro_.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.FeatureExtractor.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.SpectralFeatures.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.models.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.modules.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesSleep.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesWaveDet.WaveDetector.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/PiesWaveDet.rst" afterDir="false" />
+    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="PPSW-13 - Updating pypi">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesArt/ArtifactEraser/_configs/RCS_ArtifacEraser.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/PiesArt/ArtifactEraser/_configs/RCS_ArtifacEraser.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesHyp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesPro/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/FeatureExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/FeatureExtractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/SpectralFeatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/SpectralFeatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/FeatureExtractor/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesSleep/modules/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesSleep/modules/feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/signal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesUtils/vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesPro/vector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiesWaveDet/WaveDetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesWaveDet/WaveDetector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorials/ExampleData/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_images/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/_images/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/PiesPro.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/PiesPro.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/modules.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/modules.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/CyberPSG.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/CyberPSG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/NSRR.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/NSRR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/correct.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/correct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hypnogram/visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PiesHyp/visualisation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,16 +36,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PiesArt/ArtifactEraser/_models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PiesArt/ArtifactEraser/_models" />
+      <recent name="$PROJECT_DIR$/_images" />
+      <recent name="$PROJECT_DIR$/docs/source" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Tutorials" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PiesPro" />
       <recent name="$PROJECT_DIR$/PiesSleep" />
@@ -102,19 +60,15 @@
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/PiesWaveDet" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_images" />
-      <recent name="$PROJECT_DIR$/docs/source" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Tutorials" />
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python docs.sphinx task in ">
+  <component name="RunManager" selected="Python.main_dev">
     <configuration name="main_dev" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PiesPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="/home/lambda2/tmp/pycharm_project_123" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -182,7 +136,9 @@
       <option name="presentableId" value="Default" />
       <updated>1627946620447</updated>
       <workItem from="1627946622076" duration="624000" />
-      <workItem from="1628000193062" duration="13950000" />
+      <workItem from="1628000193062" duration="18631000" />
+      <workItem from="1628084603271" duration="18311000" />
+      <workItem from="1628189695627" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -212,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628030337853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PPSW-13 - running commit on documentation">
+      <created>1628035669539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628035669539</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PPSW-13 - running commit on PiesArt.ArtifactEraser">
+      <created>1628039781582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628039781582</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PPSW-13 - Before deployment testing">
+      <created>1628190192300</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628190192300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,46 +200,50 @@
     <MESSAGE value="PPSW-13 - Copying Pies modules" />
     <MESSAGE value="PPSW-13 - running commit Documentation" />
     <MESSAGE value="PPSW-13 - running commit Sleep, hypnogram &amp; Start working PiesArt" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - running commit Sleep, hypnogram &amp; Start working PiesArt" />
+    <MESSAGE value="PPSW-13 - running commit on documentation" />
+    <MESSAGE value="PPSW-13 - running commit on PiesArt.ArtifactEraser" />
+    <MESSAGE value="PPSW-13 - Before deployment testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - Before deployment testing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628023422099">
+    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628038612455">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
-    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628023422099" />
+    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628038612455" />
     <state x="677" y="265" key="#sphinx_task_in_" timestamp="1628024117284">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="404" y="45" key="CommitChangelistDialog2" timestamp="1628030336788">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628190469978">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1627947138906" />
-    <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628030336788" />
-    <state width="1398" height="413" key="GridCell.Tab.0.bottom" timestamp="1628035561449">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
+    <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
+    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628190469978" />
+    <state width="939" height="200" key="GridCell.Tab.0.bottom" timestamp="1628040363654">
+      <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state width="1398" height="413" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1628035561449" />
-    <state width="1878" height="413" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867910" />
-    <state width="1398" height="413" key="GridCell.Tab.0.center" timestamp="1628035561448">
-      <screen x="0" y="23" width="1440" height="828" />
-    </state>
-    <state width="1398" height="413" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
-    <state width="1878" height="413" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867909" />
-    <state width="1398" height="413" key="GridCell.Tab.0.left" timestamp="1628035561447">
-      <screen x="0" y="23" width="1440" height="828" />
-    </state>
-    <state width="1398" height="413" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1628035561447" />
-    <state width="1878" height="413" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867908" />
-    <state width="1398" height="413" key="GridCell.Tab.0.right" timestamp="1628035561448">
-      <screen x="0" y="23" width="1440" height="828" />
-    </state>
-    <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
-    <state width="1878" height="413" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628034867909" />
-    <state x="469" y="226" key="SettingsEditor" timestamp="1628020855555">
+    <state width="939" height="200" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363654" />
+    <state width="939" height="200" key="GridCell.Tab.0.center" timestamp="1628040363651">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
-    <state x="469" y="226" key="SettingsEditor/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020855555" />
+    <state width="1398" height="413" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
+    <state width="939" height="200" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363651" />
+    <state width="939" height="200" key="GridCell.Tab.0.left" timestamp="1628040363650">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1398" height="413" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1628035561447" />
+    <state width="939" height="200" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363650" />
+    <state width="939" height="200" key="GridCell.Tab.0.right" timestamp="1628040363653">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
+    <state width="939" height="200" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363653" />
+    <state x="469" y="226" key="SettingsEditor" timestamp="1628038669250">
+      <screen x="0" y="23" width="1920" height="1128" />
+    </state>
+    <state x="469" y="226" key="SettingsEditor/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628038669250" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1627946820001">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
@@ -271,6 +252,11 @@
       <screen x="0" y="23" width="1920" height="1008" />
     </state>
     <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1" timestamp="1628190022745">
+      <screen x="0" y="23" width="1920" height="1008" />
+    </state>
+    <state x="-1920" y="143" width="1898" height="1049" maximized="true" key="dock-window-1/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628036132005" />
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628190022745" />
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
