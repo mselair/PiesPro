@@ -76,7 +76,7 @@ setuptools.setup(
         'pyzmq',
         'sshtunnel',
         'torch',
-        'yaml'
+        'PyYAML'
     ]
 )
 
