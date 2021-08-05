@@ -307,12 +307,12 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628198580785">
+    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628199558162">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198580785" />
+    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199558162" />
     <state x="1920" y="108" key="FileDocumentManager.FileCacheConflict" timestamp="1628199175481">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -341,10 +341,10 @@
     <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
     <state width="939" height="200" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363653" />
     <state width="1878" height="184" key="GridCell.Tab.0.right/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244290" />
-    <state x="2592" y="274" key="MultipleFileMergeDialog" timestamp="1628199112904">
+    <state x="2592" y="274" key="MultipleFileMergeDialog" timestamp="1628199506535">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="2592" y="274" key="MultipleFileMergeDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199112904" />
+    <state x="2592" y="274" key="MultipleFileMergeDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199506535" />
     <state x="2142" y="173" width="1451" height="722" key="SettingsEditor" timestamp="1628195865462">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -354,11 +354,11 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628198590683">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628199487017">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198590683" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199487017" />
     <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628199367790">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -368,11 +368,11 @@
     </state>
     <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
     <state x="2557" y="375" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193386842" />
-    <state x="40" y="99" width="1720" height="808" key="dock-window-1" timestamp="1628199424958">
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1" timestamp="1628199455768">
       <screen x="0" y="23" width="1920" height="1008" />
     </state>
     <state x="-1920" y="143" width="1898" height="1049" maximized="true" key="dock-window-1/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628036132005" />
-    <state x="40" y="99" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199424958" />
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199455768" />
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
