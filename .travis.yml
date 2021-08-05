@@ -5,7 +5,7 @@ jobs:
     os: linux
     python:
     - '3.6'
-    -
+
   - before_install:
     - choco install python --version 3.6
     - python --version
@@ -20,7 +20,7 @@ jobs:
 
 
 install:
-- pip3 install --upgrade pip && pip3 install . || pip install --upgrade pip && pip install .
+- ( pip3 install --upgrade pip3 && pip3 install . ) || ( pip install --upgrade pip && pip install . )
 script:
 - python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist
 deploy:
