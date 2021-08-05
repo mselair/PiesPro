@@ -1,31 +1,10 @@
----
-jobs:
-  include:
-    -
-      language: python
-      name: "Linux - Python 3.6"
-      os: linux
-      python:
-        - "3.6"
-    -
-      before_install:
-        - "choco install python --version 3.6"
-        - "python --version"
-        - "python -m pip install --upgrade pip"
-        - "pip3 install wheel || pip install wheel"
-      env: "PATH=/c/Python36:/c/Python36/Scripts:$PATH"
-      language: shell
-      name: "Windows - Python 3.6"
-      os: windows
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-
+language: python
+python:
+- '3.6'
 install:
-  - "pip3 install . || pip install ."
-
+- pip install .
 script:
-  - "python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist"
-
+- python setup.py bdist_wheel sdist
 
 deploy:
   provider: pypi
