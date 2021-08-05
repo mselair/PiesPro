@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628203293835</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="before install travis linux">
+      <created>1628203821605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628203821605</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="Simplify travis" />
     <MESSAGE value="Travis autodeploy" />
     <MESSAGE value="fix win pip + fix yaml dep" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix win pip + fix yaml dep" />
+    <MESSAGE value="before install travis linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="before install travis linux" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628193845122">
@@ -297,12 +305,12 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2671" y="174" key="CommitChangelistDialog2" timestamp="1628203292059">
+    <state x="2671" y="174" key="CommitChangelistDialog2" timestamp="1628203820496">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2671" y="174" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203292059" />
+    <state x="2671" y="174" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203820496" />
     <state width="1878" height="184" key="GridCell.Tab.0.bottom" timestamp="1628193244291">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -340,11 +348,11 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628203305583">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628203829874">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203305583" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203829874" />
     <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628192901456">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
