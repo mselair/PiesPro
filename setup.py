@@ -1,4 +1,5 @@
 import setuptools
+from glob import glob
 
 from setuptools import Command, Extension
 import shlex
@@ -34,8 +35,15 @@ setuptools.setup(
     long_description_content_type="",
 
     packages=setuptools.find_packages(),
-
-
+    include_package_data=True,
+    package_data={
+        'piespro': ["PiesArt/ArtifactEraser/_configs/*.yaml", "PiesArt/ArtifactEraser/_models/*.pt", "PiesArt/ArtifactBank/*.mat"]
+    },
+    data_files=[
+        ('PiesArt_cfg', glob('PiesArt/ArtifactEraser/_configs/*.yaml')),
+        ('PiesArt_mdl', glob('PiesArt/ArtifactEraser/_models/*.pt')),
+        ('PiesArt_artifact', glob('PiesArt/ArtifactBank/*.mat')),
+    ],
 
 
     classifiers=[
@@ -67,7 +75,8 @@ setuptools.setup(
         'python-dateutil',
         'pyzmq',
         'sshtunnel',
-        'torch'
+        'torch',
+        'yaml'
     ]
 )
 
