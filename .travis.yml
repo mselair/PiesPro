@@ -9,16 +9,6 @@ jobs:
         - "3.6"
     -
       before_install:
-        - "python3 --version"
-        - "pip3 install -U pip"
-      language: shell
-      name: "macOS - Python 3.6"
-      os: osx
-      osx_image: xcode9.4
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-    -
-      before_install:
         - "choco install python --version 3.6"
         - "python --version"
         - "python -m pip install --upgrade pip"
