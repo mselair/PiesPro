@@ -4,7 +4,6 @@
     <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <list id="2827e209-0bfe-4ec0-ac74-276a4668dd8c" name="Revert &quot;Travis - test.pypi deployment&quot;" comment="Revert &quot;Travis - test.pypi deployment&quot;&#10;&#10;This reverts commit 82ea7d04" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628202848157</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix win pip + fix yaml dep">
+      <created>1628203293835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628203293835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +284,8 @@
     <MESSAGE value="Update travis" />
     <MESSAGE value="Simplify travis" />
     <MESSAGE value="Travis autodeploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Travis autodeploy" />
+    <MESSAGE value="fix win pip + fix yaml dep" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix win pip + fix yaml dep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628193845122">
@@ -290,12 +297,12 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628202847158">
+    <state x="2671" y="174" key="CommitChangelistDialog2" timestamp="1628203292059">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628202847158" />
+    <state x="2671" y="174" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203292059" />
     <state width="1878" height="184" key="GridCell.Tab.0.bottom" timestamp="1628193244291">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -333,11 +340,11 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628202860505">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628203305583">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628202860505" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628203305583" />
     <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628192901456">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
