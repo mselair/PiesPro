@@ -151,7 +151,7 @@
       <workItem from="1628084603271" duration="18311000" />
       <workItem from="1628189695627" duration="767000" />
       <workItem from="1628192358299" duration="868000" />
-      <workItem from="1628193354639" duration="3275000" />
+      <workItem from="1628193354639" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -237,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628196100924</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Travis - test.pypi deployment">
+      <created>1628197005973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628197005973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Travis - test.pypi deployment">
+      <created>1628198141209</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628198141209</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +283,8 @@
     <MESSAGE value="Update travis" />
     <MESSAGE value="Simplify travis" />
     <MESSAGE value="Travis - add Windows + deployment to test.pypi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Travis - add Windows + deployment to test.pypi" />
+    <MESSAGE value="Travis - test.pypi deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travis - test.pypi deployment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628193845122">
@@ -281,12 +296,12 @@
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628196099804">
+    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628198140368">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196099804" />
+    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198140368" />
     <state width="1878" height="184" key="GridCell.Tab.0.bottom" timestamp="1628193244291">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -324,11 +339,11 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628196106543">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628198147467">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196106543" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198147467" />
     <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628192901456">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -338,11 +353,11 @@
     </state>
     <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
     <state x="2557" y="375" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193386842" />
-    <state x="200" y="123" width="1720" height="808" key="dock-window-1" timestamp="1628196992069">
+    <state x="40" y="99" width="1720" height="808" key="dock-window-1" timestamp="1628197026562">
       <screen x="0" y="23" width="1920" height="1008" />
     </state>
     <state x="-1920" y="143" width="1898" height="1049" maximized="true" key="dock-window-1/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628036132005" />
-    <state x="200" y="123" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196992069" />
+    <state x="40" y="99" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628197026562" />
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
