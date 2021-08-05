@@ -1,96 +1,34 @@
----
 jobs:
   include:
+  - language: python
+    name: Linux - Python 3.6
+    os: linux
+    python:
+    - '3.6'
     -
-      language: python
-      name: "Linux - Python 3.6"
-      os: linux
-      python:
-        - "3.6"
-    -
-      language: python
-      name: "Linux - Python 3.7"
-      os: linux
-      python:
-        - "3.7"
-    -
-      language: python
-      name: "Linux - Python 3.8"
-      os: linux
-      python: "3.8"
-    -
-      before_install:
-        - "python3 --version"
-        - "pip3 install -U pip"
-      language: shell
-      name: "macOS - Python 3.6"
-      os: osx
-      osx_image: xcode9.4
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-    -
-      before_install:
-        - "python3 --version"
-        - "pip3 install -U pip"
-      language: shell
-      name: "macOS - Python 3.7"
-      os: osx
-      osx_image: xcode11.3
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-    -
-      before_install:
-        - "choco install python --version 3.6"
-        - "python --version"
-        - "python -m pip install --upgrade pip"
-        - "pip3 install wheel || pip install wheel"
-      env: "PATH=/c/Python36:/c/Python36/Scripts:$PATH"
-      language: shell
-      name: "Windows - Python 3.6"
-      os: windows
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-    -
-      before_install:
-        - "choco install python --version 3.7"
-        - "python --version"
-        - "python -m pip install --upgrade pip"
-        - "pip3 install wheel || pip install wheel"
-      env: "PATH=/c/Python37:/c/Python37/Scripts:$PATH"
-      language: shell
-      name: "Windows - Python 3.7"
-      os: windows
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
-    -
-      before_install:
-        - "choco install python --version 3.8"
-        - "python --version"
-        - "python -m pip install --upgrade pip"
-        - "pip3 install wheel || pip install wheel"
-      env: "PATH=/c/Python38:/c/Python38/Scripts:$PATH"
-      language: shell
-      name: "Windows - Python 3.8"
-      os: windows
-      after_success:
-        - "python3 -m pip install twine --user || python -m pip install twine --user"
+  - before_install:
+    - choco install python --version 3.6
+    - python --version
+    - python -m pip install --upgrade pip
+    - pip3 install wheel || pip install wheel
+    env: PATH=/c/Python36:/c/Python36/Scripts:$PATH
+    language: shell
+    name: Windows - Python 3.6
+    os: windows
+    after_success:
+    - python3 -m pip install twine --user || python -m pip install twine --user
 
 
 install:
-  - "pip3 install . || pip install ."
-
+- pip3 install . --use-feature=in-tree-build || pip install . --use-feature=in-tree-build
 script:
-  - "python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist"
-
-
+- python3 setup.py bdist_wheel sdist || python setup.py bdist_wheel sdist
 deploy:
   provider: pypi
   server: https://test.pypi.org/legacy/
   user: __token__
   password:
-    #secure: prBbrJIjwbOwKNB1giWz60sZwREGmU0G5U/5+Nyl5UH2M+5k9p2JWbEBh8MqY1J4NBBm++atZ3ORhTIygu6jwBjSLEHLgPENFI6Yag7gLfjOoNeM2+47fO2ByuHlUQhdrddYPadkyykQsnaT2RKUqUTnfNwQEKTfkm1gVzGU2GVDzpkOrdlNpi9qVuOUenCmRxJH4rydz4lYjBuQsmlW8biuWfGxVbVALM6b7wGyiy63TY7LgNvJLnII5+gaN/+ni5E1K2igX6oYE3oxJhEoS3seJO0AppYiZngVXCFPKYxz4hQNsx6T8W1djF+Wpj9lvlZJcjeA7l2bqBr3IgWmEVy4Pyzgc4jKODdfSin3a05g7oDZqmZrDyWF5biMTLc9Y8SVhnwhfgRJCaeQFtMK8IslGfHj+IDRvW5eyoYxcxZckhM3PcxQlybHIgbGIIvOOH5IuQKBOUd/1dlqUpRIDY1Np3aUCPT4CIozy0PpdFdWIHYsfpHLVb18/Pcx9+1KGO03RJzZiOm0uYWkyX6re2V1P0aFx7eYhlmgN1zz64+wIKzdAYplsFZ9AdDwSfJZ28U5odHMCqLBktcYZFdOg6B+5AqhKEPfSyva2lrtgu6L/IL2DvBBf29Y7KL7KFDZw3vMG1ioNfUUfd6LITQ9jyFzTxxcP8zpgV1OIMWZstU=
-    #test.pypi
-    secure: HWeERkOF6xl/vkMJApEFi4PNWA5ReLUdzUojfR3kKJM5zAY66Z+SifG1odRwPV7US0iMMD/6bBtLq1jjfnhurBbfiuzGFA+K0//c9xfZL9o8w5jfwU2V/Slwwsx+JCEAgPvCUjrCp9CFibbj5tybXbeIjZCvyusMctPzh+kVIaiJgcmoDDiACpMHqCp7lfZz9STA2E1LwttcwpAM5NoxSKH/Q/urHPiFmc3NKldmdcMdcaUuQzePwpaExOkzeELygh8GyJG+LFojBkCuNSSrLJe+FqEwVs4XyIB9TJZUW/Or8g6pAr1NeGVLOfR46zLHruJiNZsztJRleTjke0vXkW2btppCf3vT1rvqTWQjAb8KrP++d978Afq8gTu+RLSOwb4WTyToSqr8AN20lEo5kX0SaAAwKRdfcc5mi4ms5CBfoXQSzIp7w9zGydLDS4iIlwy02hTI07DmWTu7SbaNopJnDohSRcfIeGYkv4uu0cwrEokbwpU8CmC6DDLlCi9l5QZszUgJDxXmpTKT68rv1K0QaKztI+ua6e6pqj4SqdtAUQ4iCh6DtKl5cMFz8kbifc8+5sCdgdOJjs9WeG5A3bEL2Ga7Dg8c1C6I+/CZlbNPDgPc9q/VejtZCofPZwn4hPAt1QsWAsBUuNpbIDIpPHWuGE1NnH/AXi0Qi0YJKdg=
+    secure: Vm/R6xjUlrZgWEnOB0c9EqDwpWgLHwDrlz1SESoD2Jvv3PsEphnIA8X0cJ0nWEMwy/858PTz4Rf5L+62ftwA6mimeWuNMWSf6Tw2DY2CYXj1WSxUKHCS+8dp4GHluYS8kE0zdPvzjMcqQY9gki2gCYR768kQMSnloTVmecBypqpOXdUQqzXgNfIW41vflx4wKYysftsq+OrU3I7iQxAWr+xMxD/RgPOP2stGztepDqryOrPw5aKUp2O/ERWdBseLUKvYpbEqlT2JdbXpkEbkK/QivtpHWC0ME+GObZnrh7rjqJmQnOXO6Bjiqzgordi/SBeLjZaoHrTyz1AsS+W9gTpuju4TNZ+e6Egc7tKwds9LCCVOfdWWYTcuicQbVGQQDTe7poGOmGiDFH2lI/Kv86am46SoJ4mGQBhOB+1XVAPmaiVavnH40gKtFV0ABCHqxrSxeGboCRVwxVo7g7McJpdYdoPrzYMFMY/WaB4YHz8WgvWkX9P8E3GQb7ax7L9iu+ZAwcQnMzUmvr+EtRdy0wrbDJaCQX2HL4egab+KZbtstmJ9V2fYLbzy458Uc2/Xbfm3gZekRggOKTJ7Tm8jGuKz5byZmwpHL5A975q03XXI1htX7mEm4MuNMreHkwDbkFi5cp8m8iHdLoRf+6fvXE58F+uUmTKFPLSsIuIXXRc=
   skip_cleanup: true
   on:
     tags: false

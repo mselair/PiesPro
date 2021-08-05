@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="PPSW-13 - Updating pypi">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
@@ -19,6 +18,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -34,7 +46,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/PiesArt/ArtifactEraser/_models" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -43,7 +54,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,9 +80,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="sftp://lambda2@10.144.10.71:22/home/lambda2/anaconda3/envs/sleep/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="/home/lambda2/tmp/pycharm_project_123" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -91,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sphinx task in " type="docs" factoryName="Sphinx task" nameIsGenerated="true">
+    <configuration name="sphinx task in sphinx task in sphinx task in " type="docs" factoryName="Sphinx task" nameIsGenerated="true">
       <module name="PiesPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,7 +121,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.main_dev" />
-      <item itemvalue="Python docs.sphinx task in " />
+      <item itemvalue="Python docs.sphinx task in sphinx task in sphinx task in " />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -126,7 +137,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -139,6 +150,8 @@
       <workItem from="1628000193062" duration="18631000" />
       <workItem from="1628084603271" duration="18311000" />
       <workItem from="1628189695627" duration="767000" />
+      <workItem from="1628192358299" duration="868000" />
+      <workItem from="1628193354639" duration="3275000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -189,11 +202,59 @@
       <option name="project" value="LOCAL" />
       <updated>1628190192300</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update travis - only P 3.6">
+      <created>1628191992127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628191992127</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Remove mac os deployment">
+      <created>1628193969155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628193969155</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update travis">
+      <created>1628194283305</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628194283305</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Simplify travis">
+      <created>1628195177933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628195177933</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Travis - add Windows + deployment to test.pypi">
+      <created>1628196100924</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628196100924</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PPSW-13 - Initial Commit" />
@@ -203,67 +264,97 @@
     <MESSAGE value="PPSW-13 - running commit on documentation" />
     <MESSAGE value="PPSW-13 - running commit on PiesArt.ArtifactEraser" />
     <MESSAGE value="PPSW-13 - Before deployment testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="PPSW-13 - Before deployment testing" />
+    <MESSAGE value="Update travis - only P 3.6" />
+    <MESSAGE value="Remove mac os deployment" />
+    <MESSAGE value="Update travis" />
+    <MESSAGE value="Simplify travis" />
+    <MESSAGE value="Travis - add Windows + deployment to test.pypi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Travis - add Windows + deployment to test.pypi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628038612455">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628193845122">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628038612455" />
+    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193845122" />
     <state x="677" y="265" key="#sphinx_task_in_" timestamp="1628024117284">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628190469978">
+    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628196099804">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628190469978" />
-    <state width="939" height="200" key="GridCell.Tab.0.bottom" timestamp="1628040363654">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196099804" />
+    <state width="1878" height="184" key="GridCell.Tab.0.bottom" timestamp="1628193244291">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="413" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1628035561449" />
     <state width="939" height="200" key="GridCell.Tab.0.bottom/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363654" />
-    <state width="939" height="200" key="GridCell.Tab.0.center" timestamp="1628040363651">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1878" height="184" key="GridCell.Tab.0.bottom/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244291" />
+    <state width="1878" height="184" key="GridCell.Tab.0.center" timestamp="1628193244289">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="413" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
     <state width="939" height="200" key="GridCell.Tab.0.center/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363651" />
-    <state width="939" height="200" key="GridCell.Tab.0.left" timestamp="1628040363650">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1878" height="184" key="GridCell.Tab.0.center/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244289" />
+    <state width="1878" height="184" key="GridCell.Tab.0.left" timestamp="1628193244289">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="413" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1628035561447" />
     <state width="939" height="200" key="GridCell.Tab.0.left/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363650" />
-    <state width="939" height="200" key="GridCell.Tab.0.right" timestamp="1628040363653">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1878" height="184" key="GridCell.Tab.0.left/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244289" />
+    <state width="1878" height="184" key="GridCell.Tab.0.right" timestamp="1628193244290">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
     <state width="939" height="200" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363653" />
-    <state x="469" y="226" key="SettingsEditor" timestamp="1628038669250">
-      <screen x="0" y="23" width="1920" height="1128" />
+    <state width="1878" height="184" key="GridCell.Tab.0.right/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244290" />
+    <state x="2592" y="274" key="MultipleFileMergeDialog" timestamp="1628196977324">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2592" y="274" key="MultipleFileMergeDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196977324" />
+    <state x="2142" y="173" width="1451" height="722" key="SettingsEditor" timestamp="1628195865462">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="469" y="226" key="SettingsEditor/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628038669250" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1627946820001">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="2142" y="173" width="1451" height="722" key="SettingsEditor/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628195865462" />
+    <state x="2591" y="364" key="VCS.ChangelistChooser" timestamp="1628194265558">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628196106543">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="637" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1628000248392">
-      <screen x="0" y="23" width="1920" height="1008" />
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196106543" />
+    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628192901456">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628192901456" />
+    <state x="2557" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1628193386842">
+      <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
-    <state x="200" y="123" width="1720" height="808" key="dock-window-1" timestamp="1628190022745">
+    <state x="2557" y="375" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193386842" />
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1" timestamp="1628196992069">
       <screen x="0" y="23" width="1920" height="1008" />
     </state>
     <state x="-1920" y="143" width="1898" height="1049" maximized="true" key="dock-window-1/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628036132005" />
-    <state x="200" y="123" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628190022745" />
+    <state x="200" y="123" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196992069" />
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020330116" />
+    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog" timestamp="1628196967398">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196967398" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_.coverage" NAME="sphinx task in  Coverage Results" MODIFIED="1628035561436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />
+    <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_sphinx_task_in_sphinx_task_in_.coverage" NAME="sphinx task in sphinx task in sphinx task in  Coverage Results" MODIFIED="1628192958804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />
     <SUITE FILE_PATH="coverage/PiesPro$main_dev.coverage" NAME="main_dev Coverage Results" MODIFIED="1628020399698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/home/lambda2/tmp/pycharm_project_123" />
   </component>
 </project>
