@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="048c34cf-3f94-42c1-b48a-5924ef4033f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +148,7 @@
       <workItem from="1628084603271" duration="18311000" />
       <workItem from="1628189695627" duration="767000" />
       <workItem from="1628192358299" duration="868000" />
-      <workItem from="1628193354639" duration="4407000" />
+      <workItem from="1628193354639" duration="5420000" />
     </task>
     <task id="LOCAL-00001" summary="PPSW-13 - Initial Commit">
       <created>1627946814220</created>
@@ -251,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628198141209</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Travis - test.pypi deployment">
+      <created>1628198183155</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628198183155</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Travis - test.pypi deployment">
+      <created>1628198582022</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628198582022</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,21 +298,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Travis - test.pypi deployment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628193845122">
+    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628198554304">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="424" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628038612455" />
-    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193845122" />
+    <state x="2344" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198554304" />
     <state x="677" y="265" key="#sphinx_task_in_" timestamp="1628024117284">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="677" y="265" key="#sphinx_task_in_/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628024117284" />
-    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628198140368">
+    <state x="2324" y="44" key="CommitChangelistDialog2" timestamp="1628198580785">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="303" y="39" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1628035668488" />
     <state x="404" y="45" key="CommitChangelistDialog2/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628039780426" />
-    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198140368" />
+    <state x="2324" y="44" key="CommitChangelistDialog2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198580785" />
+    <state x="1920" y="108" key="FileDocumentManager.FileCacheConflict" timestamp="1628199175481">
+      <screen x="1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1920" y="108" key="FileDocumentManager.FileCacheConflict/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199175481" />
     <state width="1878" height="184" key="GridCell.Tab.0.bottom" timestamp="1628193244291">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -326,10 +341,10 @@
     <state width="1398" height="413" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1628035561448" />
     <state width="939" height="200" key="GridCell.Tab.0.right/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628040363653" />
     <state width="1878" height="184" key="GridCell.Tab.0.right/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193244290" />
-    <state x="2592" y="274" key="MultipleFileMergeDialog" timestamp="1628196977324">
+    <state x="2592" y="274" key="MultipleFileMergeDialog" timestamp="1628199112904">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="2592" y="274" key="MultipleFileMergeDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196977324" />
+    <state x="2592" y="274" key="MultipleFileMergeDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199112904" />
     <state x="2142" y="173" width="1451" height="722" key="SettingsEditor" timestamp="1628195865462">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
@@ -339,33 +354,33 @@
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="2591" y="364" key="VCS.ChangelistChooser/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628194265558" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628198147467">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2" timestamp="1628198590683">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1627946820001" />
-    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198147467" />
-    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628192901456">
+    <state x="2347" y="220" key="Vcs.Push.Dialog.v2/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628198590683" />
+    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628199367790">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628192901456" />
+    <state x="2020" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199367790" />
     <state x="2557" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1628193386842">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
     <state x="637" y="359" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@0.23.1920.1008" timestamp="1628000248392" />
     <state x="2557" y="375" key="com.intellij.ide.util.TipDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628193386842" />
-    <state x="40" y="99" width="1720" height="808" key="dock-window-1" timestamp="1628197026562">
+    <state x="40" y="99" width="1720" height="808" key="dock-window-1" timestamp="1628199424958">
       <screen x="0" y="23" width="1920" height="1008" />
     </state>
     <state x="-1920" y="143" width="1898" height="1049" maximized="true" key="dock-window-1/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628036132005" />
-    <state x="40" y="99" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628197026562" />
+    <state x="40" y="99" width="1720" height="808" key="dock-window-1/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199424958" />
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser" timestamp="1628020330116">
       <screen x="0" y="23" width="1920" height="1128" />
     </state>
     <state x="867" y="324" width="557" height="525" key="ftp.server.browser/1920.399.1440.877/-1920.143.1920.1057/0.23.1920.1128@0.23.1920.1128" timestamp="1628020330116" />
-    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog" timestamp="1628196967398">
+    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog" timestamp="1628199182298">
       <screen x="1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628196967398" />
+    <state x="2626" y="271" key="git4idea.branch.GitSmartOperationDialog/3840.591.1440.877/0.23.1920.1008/1920.23.1920.1057@1920.23.1920.1057" timestamp="1628199182298" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PiesPro$sphinx_task_in_.coverage" NAME="sphinx task in  Coverage Results" MODIFIED="1628035561436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/docs" />

@@ -11,7 +11,6 @@ from mef_tools.io import MefReader
 
 
 
-
 """
 Dat = StimArtifactDataset(1, ['MultiCenteriEEG_physiology', 'MultiCenteriEEG_pathology'], ['RCS'])
 DLoad = DataLoader(Dat, batch_size=128, num_workers=8, shuffle=True)
