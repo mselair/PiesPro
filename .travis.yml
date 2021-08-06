@@ -9,17 +9,6 @@ jobs:
     python:
     - '3.6'
 
-  - before_install:
-    - choco install python --version 3.6
-    - python --version
-    - python3 -m pip3 install --upgrade pip || python -m pip install --upgrade pip
-    - pip3 install wheel || pip install wheel
-    env: PATH=/c/Python36:/c/Python36/Scripts:$PATH
-    language: shell
-    name: Windows - Python 3.6
-    os: windows
-    after_success:
-    - python3 -m pip install twine --user || python -m pip install twine --user
 install:
 - python3 -m pip install . --use-feature=in-tree-build || python -m pip install . --use-feature=in-tree-build
 script:
